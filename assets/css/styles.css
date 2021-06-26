@@ -62,30 +62,6 @@ html{
   scroll-behavior: smooth;
 }
 
-/* ========== Variables Dark theme ========== */
- body.dark-theme {
-
-  --title-color: #fff385;
-  --text-color: #ffffff;
-  --body-color: #000000;
-  --container-color: #353232;
-} 
-
-/*========== Button Dark/Light ==========*/
-.change-theme .home__img{
-  position: absolute;
-  right: 1rem;
-  top: 1.8rem;
-  color: var(--text-color);
-  font-size: 1rem;
-  cursor: pointer;
-  opacity: 0.9;
-  background-image: image("assets/img/New folder/pop8.png");
-}
-#theme-button{
-  cursor: pointer;
-}
-
 body{
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
@@ -166,21 +142,8 @@ img{
   align-items: center;
 }
 
-@media screen and (max-width: 768px){
-  .nav__menu{
-    position: fixed;
-    top: -100%;
-    left: 0;
-    width: 100%;
-    padding: 1.5rem 0 1rem;
-    text-align: center;
-    background-color: var(--body-color);
-    transition: .4s;
-    box-shadow: 0 4px 4px rgba(0,0,0,.1);
-    border-radius: 0 0 1rem 1rem;
-    z-index: var(--z-fixed);
-  }
-}
+
+
 
 .nav__item{
   margin-bottom: var(--mb-2);
@@ -374,5 +337,4 @@ background-color:#4d473d;
   border-radius: .5rem 0 .5rem 0;
   cursor: pointer;
 }
-
 
