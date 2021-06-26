@@ -11,52 +11,112 @@
 
 <body>
 
-    <!--========== HEADER ==========-->
-    <header class="l-header" id="header">
-        <nav class="nav bd-container">
-            <a href="#" class="nav__logo">HealthCare</a>
+   <!--========== HEADER ==========-->
+   <header class="l-header" id="header">
+    <nav class="nav bd-container">
+        <a href="#" class="nav__logo">HealthCare</a>
 
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link">Consultation</a></li>
-                    <li class="nav__item"><a href="#Products" class="nav__link">Products</a></li>
-                    <li class="nav__item"><a href="#contact" class="nav__link">Contact us</a></li>
-                </ul>
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">Consultation</a></li>
+                <li class="nav__item"><a href="#Products" class="nav__link">Products</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contact us</a></li>
+
+                <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
+            </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+            <i class='bx bx-menu'></i>
+        </div>
+    </nav>
+</header>
+
+<main class="l-main">
+    <!--========== HOME ==========-->
+    <section class="home" id="home">
+        <div class="home__container bd-container bd-grid">
+            <div class="home__data">
+                <h1 class="home__title">MedCare.</h1>
+                <h2 class="home__subtitle">Bringing the Medicines at your doorstep</h2>
+                <a href="#" class="button">Order Now</a>
             </div>
-            <div class="nav__toggle" id="nav-toggle">
-                <i class='bx bx-menu'></i>
+
+            <img src="assets/img/home.png" alt="" class="home__img">
+        </div>
+    </section>
+
+    <!--========== ABOUT ==========-->
+    <section class="about section bd-container" id="about">
+        <div class="about__container  bd-grid">
+            <div class="about__data">
+                <span class="section-subtitle about__initial"></span>
+                <h2 class="section-title about__initial">Consult a Doctor</h2>
+                <p class="about__description">Connect securely anytime,anywhere with 24/7 doctors available just for
+                    you. </p>
+                <a class="button">Book Appointment</a>
             </div>
-        </nav>
-    </header>
-    <main class="l-main">
-        <!--========== HOME ==========-->
-        <section class="home" id="home">
-            <div class="home__container bd-container bd-grid">
-                <div class="home__data">
-                    <h1 class="home__title">MedCare.</h1>
-                    <h2 class="home__subtitle">Bringing the Medicines at your doorstep</h2>
-                    <a href="#" class="button">Order Now</a>
-                </div>
 
-                <img src="assets/img/home.png" alt="" class="home__img">
+            <img src="assets/img/consultation.png" alt="" class="about__img" height="00px">
+        </div>
+    </section>
+
+
+
+    <!--========== MENU ==========-->
+    <section class="menu section bd-container" id="menu">
+        <!-- <span class="section-subtitle">Special</span> -->
+        <h2 class="section-title">Popular products</h2>
+
+        <div class="menu__container bd-grid">
+            <div class="menu__content">
+                <img src="assets/img/product1.png" alt="" class="menu__img">
+                <h3 class="menu__name">Immunity Booster</h3>
+                <span class="menu__detail">OILY</span>
+                <span class="menu__preci">₹ 522</span>
+                <a class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+
             </div>
-        </section>
 
-
-        <section class="about section bd-container" id="about">
-            <div class="about__container  bd-grid">
-                <div class="about__data">
-                    <span class="section-subtitle about__initial"></span>
-                    <h2 class="section-title about__initial">Consult a Doctor</h2>
-                    <p class="about__description">Connect securely anytime,anywhere with 24/7 doctors available just for
-                        you. </p>
-                    <a class="button">Book Appointment</a>
-                </div>
-
-                <img src="assets/img/consultation.png" alt="" class="about__img">
+            <div class="menu__content">
+                <img src="assets/img/product2.png" alt="" class="menu__img">
+                <h3 class="menu__name">Hand sanitizer</h3>
+                <span class="menu__detail">Savlon</span>
+                <span class="menu__preci">₹ 129</span>
+                <a class="button menu__button"><i class='bx bx-cart-alt'></i></a>
             </div>
-        </section>
+
+            <div class="menu__content">
+                <img src="assets/img/product3.png" alt="" class="menu__img">
+                <h3 class="menu__name">Hair Vitamins</h3>
+                <span class="menu__detail">OILY</span>
+                <span class="menu__preci">₹ 559</span>
+                <a class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+            </div>
+            <div class="menu__content">
+                <img src="assets/img/product4.png" alt="" class="menu__img">
+                <h3 class="menu__name">Women's Multi vitamin Tablets</h3>
+                <span class="menu__detail">Himalaya</span>
+                <span class="menu__preci">₹ 199</span>
+                <a class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+            </div>
+            <div class="menu__content">
+                <img src="assets/img/product5.png" alt="" class="menu__img">
+                <h3 class="menu__name">Body Oil</h3>
+                <span class="menu__detail">Ayur Veda</span>
+                <span class="menu__preci">₹ 699</span>
+                <a class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+            </div>
+            <div class="menu__content">
+                <img src="assets/img/product6.png" alt="" class="menu__img">
+                <h3 class="menu__name">Face Serum</h3>
+                <span class="menu__detail">Ayur Veda</span>
+                <span class="menu__preci">₹ 399</span>
+                <a class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+            </div>
+
+
 
 
 </body>
