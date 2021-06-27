@@ -63,6 +63,6 @@ REFERENCES :
 - previewed.app
 - W3schools.com
 
+![snapshot](https://user-images.githubusercontent.com/58084673/123555078-1e1f3400-d7a1-11eb-948c-30afcb6c234e.png)
 
-![screenshot](https://user-images.githubusercontent.com/58084673/123554807-76553680-d79f-11eb-9b76-4f3967f97999.png)
 ![Screenshot 2021-06-27 213844](https://user-images.githubusercontent.com/58084673/123554823-8705ac80-d79f-11eb-8137-7deabe1759f5.png)
