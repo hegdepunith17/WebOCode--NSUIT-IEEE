@@ -3,13 +3,23 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--========== BOX ICONS ==========-->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--========== CSS ==========-->
     <link rel="stylesheet" href="assets/css/styles.css">
+
     <title>HealthCare Website</title>
 </head>
 
 <body>
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-chevron-up scrolltop__icon'></i>
+    </a>
 
     <!--========== HEADER ==========-->
     <header class="l-header" id="header">
@@ -20,9 +30,7 @@
                 <ul class="nav__list">
                     <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
                     <li class="nav__item"><a href="#about" class="nav__link">Consultation</a></li>
-                    <li class="nav__item"><a href="#Products" class="nav__link">Products</a></li>
                     <li class="nav__item"><a href="#contact" class="nav__link">Contact us</a></li>
-
                     <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
                 </ul>
             </div>
@@ -42,12 +50,13 @@
                     <h2 class="home__subtitle">Bringing the Medicines at your doorstep</h2>
                     <a href="#" class="button">Order Now</a>
                 </div>
-
                 <img src="assets/img/home.png" alt="" class="home__img">
             </div>
         </section>
 
-        <!--========== ABOUT ==========-->
+
+
+        <!--========== ABOUT  Consultation==========-->
         <section class="about section bd-container" id="about">
             <div class="about__container  bd-grid">
                 <div class="about__data">
@@ -55,18 +64,17 @@
                     <h2 class="section-title about__initial">Consult a Doctor</h2>
                     <p class="about__description">Connect securely anytime,anywhere with 24/7 doctors available just for
                         you. </p>
-                    <a class="button">Book Appointment</a>
+                    <a class="button">Book an Appointment</a>
                 </div>
-
                 <img src="assets/img/consultation.png" alt="" class="about__img" height="00px">
             </div>
         </section>
 
 
 
-        <!--========== MENU ==========-->
+        <!--==========Products  MENU ==========-->
         <section class="menu section bd-container" id="menu">
-
+            <!-- <span class="section-subtitle">Special</span> -->
             <h2 class="section-title">Popular products</h2>
 
             <div class="menu__container bd-grid">
@@ -76,9 +84,7 @@
                     <span class="menu__detail">OILY</span>
                     <span class="menu__preci">₹ 522</span>
                     <a class="button menu__button"><i class='bx bx-cart-alt'></i></a>
-
                 </div>
-
                 <div class="menu__content">
                     <img src="assets/img/product2.png" alt="" class="menu__img">
                     <h3 class="menu__name">Hand sanitizer</h3>
@@ -86,7 +92,6 @@
                     <span class="menu__preci">₹ 129</span>
                     <a class="button menu__button"><i class='bx bx-cart-alt'></i></a>
                 </div>
-
                 <div class="menu__content">
                     <img src="assets/img/product3.png" alt="" class="menu__img">
                     <h3 class="menu__name">Hair Vitamins</h3>
@@ -115,38 +120,40 @@
                     <span class="menu__preci">₹ 399</span>
                     <a class="button menu__button"><i class='bx bx-cart-alt'></i></a>
                 </div>
-                <!--===== APP =======-->
-                <section class="app section bd-container">
-                    <div class="app__container bd-grid">
-                        <div class="app__data">
+            </div>
+        </section>
 
-                            <h2 class="section-title app__initial">App is available</h2>
-                            <p class="app__description">Find our application and download it, you can make medicine
-                                orders, see your deliveries on the way and much more.</p>
-                            <div class="app__stores">
-                                <a><img src="assets/img/app1.png" alt="" class="app__store"></a>
-                                <a><img src="assets/img/app2.png" alt="" class="app__store"></a>
-                            </div>
-                        </div>
+        <!--===== APP =======-->
+        <section class="app section bd-container">
+            <div class="app__container bd-grid">
+                <div class="app__data">
 
-                        <img src="assets/img/app_banner.png" class="app__img">
+                    <h2 class="section-title app__initial">App is available</h2>
+                    <p class="app__description">Find our application and download it, you can make medicine
+                        orders, see your deliveries on the way and much more.</p>
+                    <div class="app__stores">
+                        <a><img src="assets/img/app1.png" alt="" class="app__store"></a>
+                        <a><img src="assets/img/app2.png" alt="" class="app__store"></a>
                     </div>
-                </section>
+                </div>
+                <img src="assets/img/app_banner.png" class="app__img">
+            </div>
+        </section>
 
-                <!--========== CONTACT US ==========-->
-                <section class="contact section bd-container" id="contact">
-                    <div class="contact__container bd-grid">
-                        <div class="contact__data">
-                            <span class="section-subtitle contact__initial">Let's talk</span>
-                            <h2 class="section-title contact__initial">Contact us</h2>
-                            <p class="contact__description">Contact us for any queries</p>
-                        </div>
+        <!--========== CONTACT US ==========-->
+        <section class="contact section bd-container" id="contact">
+            <div class="contact__container bd-grid">
+                <div class="contact__data">
+                    <span class="section-subtitle contact__initial">Let's talk</span>
+                    <h2 class="section-title contact__initial">Contact us</h2>
+                    <p class="contact__description">Contact us for any queries</p>
+                </div>
 
-                        <div class="contact__button">
-                            <a class="button">Contact us now</a>
-                        </div>
-                    </div>
-                </section>
+                <div class="contact__button">
+                    <a class="button">Contact us now</a>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!--========== FOOTER ==========-->
@@ -190,9 +197,6 @@
 
     <!--========== MAIN JS ==========-->
     <script src="assets/js/main.js"></script>
-
-
-
 </body>
 
 </html>
