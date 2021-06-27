@@ -1,7 +1,7 @@
 # WebOCode-demo-repo
 
 website link : https://med-care-webocode.netlify.app/
--Team Name - Web Wonders
+- Team Name - Web Wonders
 
 TEAM MEMBERS :
 - Punith Hegde 
@@ -36,11 +36,11 @@ FEATUES / HOW WE JUSTIFY OUR THEME
 
 
 PROBLEMS FACED AND LEARNING OUTCOME WHILE RESOLVING :
-1)  there was an overalpping of navigationbar with the website body container
+1) There was an overalpping of navigationbar with the website body container
 - resolved this issue by going through various web pages like w3schools
 2) faced problem with making the website responsive
 - fixed this by giving fixed percentages and pixels to the images we used.
-3)faced few issues with image alignment and positioning
+3) faced few issues with image alignment and positioning
 - resolved this by referring through w3school
 
  what we learnt :
@@ -50,8 +50,6 @@ PROBLEMS FACED AND LEARNING OUTCOME WHILE RESOLVING :
  - making the website responsive
  
 
-
-
 REQUIREMENTS :
 - Front-end Language:
 - HTML
@@ -60,8 +58,11 @@ REQUIREMENTS :
 
 IDE: Microsoft Visual Studio
 
-
 REFERENCES :
 - freepik.com 
 - previewed.app
 - W3schools.com
+
+
+![screenshot](https://user-images.githubusercontent.com/58084673/123554807-76553680-d79f-11eb-9b76-4f3967f97999.png)
+![Screenshot 2021-06-27 213844](https://user-images.githubusercontent.com/58084673/123554823-8705ac80-d79f-11eb-8137-7deabe1759f5.png)
