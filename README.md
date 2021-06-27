@@ -37,11 +37,11 @@ FEATUES / HOW WE JUSTIFY OUR THEME
 
 PROBLEMS FACED AND LEARNING OUTCOME WHILE RESOLVING :
 1)  there was an overalpping of navigationbar with the website body container
-resolved this issue by going through various web pages like w3schools
+- resolved this issue by going through various web pages like w3schools
 2) faced problem with making the website responsive
-fixed this by giving fixed percentages and pixels to the images we used.
+- fixed this by giving fixed percentages and pixels to the images we used.
 3)faced few issues with image alignment and positioning
-resolved this by referring through w3school
+- resolved this by referring through w3school
 
  what we learnt :
  - learnt how to add transition effects.
@@ -53,10 +53,10 @@ resolved this by referring through w3school
 
 
 REQUIREMENTS :
--Front-end Language:
--HTML
--CSS
--JavaScript
+- Front-end Language:
+- HTML
+- CSS
+- JavaScript
 
 IDE: Microsoft Visual Studio
 
