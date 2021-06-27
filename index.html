@@ -11,111 +11,185 @@
 
 <body>
 
-   <!--========== HEADER ==========-->
-   <header class="l-header" id="header">
-    <nav class="nav bd-container">
-        <a href="#" class="nav__logo">HealthCare</a>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">HealthCare</a>
 
-        <div class="nav__menu" id="nav-menu">
-            <ul class="nav__list">
-                <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
-                <li class="nav__item"><a href="#about" class="nav__link">Consultation</a></li>
-                <li class="nav__item"><a href="#Products" class="nav__link">Products</a></li>
-                <li class="nav__item"><a href="#contact" class="nav__link">Contact us</a></li>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">Consultation</a></li>
+                    <li class="nav__item"><a href="#Products" class="nav__link">Products</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact us</a></li>
 
-                <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
-            </ul>
+                    <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--========== HOME ==========-->
+        <section class="home" id="home">
+            <div class="home__container bd-container bd-grid">
+                <div class="home__data">
+                    <h1 class="home__title">MedCare.</h1>
+                    <h2 class="home__subtitle">Bringing the Medicines at your doorstep</h2>
+                    <a href="#" class="button">Order Now</a>
+                </div>
+
+                <img src="assets/img/home.png" alt="" class="home__img">
+            </div>
+        </section>
+
+        <!--========== ABOUT ==========-->
+        <section class="about section bd-container" id="about">
+            <div class="about__container  bd-grid">
+                <div class="about__data">
+                    <span class="section-subtitle about__initial"></span>
+                    <h2 class="section-title about__initial">Consult a Doctor</h2>
+                    <p class="about__description">Connect securely anytime,anywhere with 24/7 doctors available just for
+                        you. </p>
+                    <a class="button">Book Appointment</a>
+                </div>
+
+                <img src="assets/img/consultation.png" alt="" class="about__img" height="00px">
+            </div>
+        </section>
+
+
+
+        <!--========== MENU ==========-->
+        <section class="menu section bd-container" id="menu">
+
+            <h2 class="section-title">Popular products</h2>
+
+            <div class="menu__container bd-grid">
+                <div class="menu__content">
+                    <img src="assets/img/product1.png" alt="" class="menu__img">
+                    <h3 class="menu__name">Immunity Booster</h3>
+                    <span class="menu__detail">OILY</span>
+                    <span class="menu__preci">₹ 522</span>
+                    <a class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+
+                </div>
+
+                <div class="menu__content">
+                    <img src="assets/img/product2.png" alt="" class="menu__img">
+                    <h3 class="menu__name">Hand sanitizer</h3>
+                    <span class="menu__detail">Savlon</span>
+                    <span class="menu__preci">₹ 129</span>
+                    <a class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                </div>
+
+                <div class="menu__content">
+                    <img src="assets/img/product3.png" alt="" class="menu__img">
+                    <h3 class="menu__name">Hair Vitamins</h3>
+                    <span class="menu__detail">OILY</span>
+                    <span class="menu__preci">₹ 559</span>
+                    <a class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                </div>
+                <div class="menu__content">
+                    <img src="assets/img/product4.png" alt="" class="menu__img">
+                    <h3 class="menu__name">Women's Multi vitamin Tablets</h3>
+                    <span class="menu__detail">Himalaya</span>
+                    <span class="menu__preci">₹ 199</span>
+                    <a class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                </div>
+                <div class="menu__content">
+                    <img src="assets/img/product5.png" alt="" class="menu__img">
+                    <h3 class="menu__name">Body Oil</h3>
+                    <span class="menu__detail">Ayur Veda</span>
+                    <span class="menu__preci">₹ 699</span>
+                    <a class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                </div>
+                <div class="menu__content">
+                    <img src="assets/img/product6.png" alt="" class="menu__img">
+                    <h3 class="menu__name">Face Serum</h3>
+                    <span class="menu__detail">Ayur Veda</span>
+                    <span class="menu__preci">₹ 399</span>
+                    <a class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                </div>
+                <!--===== APP =======-->
+                <section class="app section bd-container">
+                    <div class="app__container bd-grid">
+                        <div class="app__data">
+
+                            <h2 class="section-title app__initial">App is available</h2>
+                            <p class="app__description">Find our application and download it, you can make medicine
+                                orders, see your deliveries on the way and much more.</p>
+                            <div class="app__stores">
+                                <a><img src="assets/img/app1.png" alt="" class="app__store"></a>
+                                <a><img src="assets/img/app2.png" alt="" class="app__store"></a>
+                            </div>
+                        </div>
+
+                        <img src="assets/img/app_banner.png" class="app__img">
+                    </div>
+                </section>
+
+                <!--========== CONTACT US ==========-->
+                <section class="contact section bd-container" id="contact">
+                    <div class="contact__container bd-grid">
+                        <div class="contact__data">
+                            <span class="section-subtitle contact__initial">Let's talk</span>
+                            <h2 class="section-title contact__initial">Contact us</h2>
+                            <p class="contact__description">Contact us for any queries</p>
+                        </div>
+
+                        <div class="contact__button">
+                            <a class="button">Contact us now</a>
+                        </div>
+                    </div>
+                </section>
+    </main>
+
+    <!--========== FOOTER ==========-->
+    <footer class="footer section bd-container">
+        <div class="footer__container bd-grid">
+            <div class="footer__content">
+                <a href="#" class="footer__logo">MedCare.</a>
+                <span class="footer__description">Online Pharmacy</span>
+                <div>
+                    <a class="footer__social"><i class='bx bxl-facebook'></i></a>
+                    <a class="footer__social"><i class='bx bxl-instagram'></i></a>
+                    <a class="footer__social"><i class='bx bxl-twitter'></i></a>
+                </div>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Information</h3>
+                <ul>
+                    <li><a class="footer__link">Contact us</a></li>
+                    <li><a class="footer__link">Privacy policy</a></li>
+                    <li><a class="footer__link">Terms of services</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Address</h3>
+                <ul>
+                    <li>La-Castle</li>
+                    <li>Ring Road,Raraji Nagar #332</li>
+                    <li>Bangalore</li>
+                    <li>medcare@email.com</li>
+                </ul>
+            </div>
         </div>
 
-        <div class="nav__toggle" id="nav-toggle">
-            <i class='bx bx-menu'></i>
-        </div>
-    </nav>
-</header>
+        <p class="footer__copy">&#169; 2021 MedCare. All right reserved</p>
+    </footer>
 
-<main class="l-main">
-    <!--========== HOME ==========-->
-    <section class="home" id="home">
-        <div class="home__container bd-container bd-grid">
-            <div class="home__data">
-                <h1 class="home__title">MedCare.</h1>
-                <h2 class="home__subtitle">Bringing the Medicines at your doorstep</h2>
-                <a href="#" class="button">Order Now</a>
-            </div>
+    <!--========== SCROLL REVEAL ==========-->
+    <script src="https://unpkg.com/scrollreveal"></script>
 
-            <img src="assets/img/home.png" alt="" class="home__img">
-        </div>
-    </section>
-
-    <!--========== ABOUT ==========-->
-    <section class="about section bd-container" id="about">
-        <div class="about__container  bd-grid">
-            <div class="about__data">
-                <span class="section-subtitle about__initial"></span>
-                <h2 class="section-title about__initial">Consult a Doctor</h2>
-                <p class="about__description">Connect securely anytime,anywhere with 24/7 doctors available just for
-                    you. </p>
-                <a class="button">Book Appointment</a>
-            </div>
-
-            <img src="assets/img/consultation.png" alt="" class="about__img" height="00px">
-        </div>
-    </section>
-
-
-
-    <!--========== MENU ==========-->
-    <section class="menu section bd-container" id="menu">
-        <!-- <span class="section-subtitle">Special</span> -->
-        <h2 class="section-title">Popular products</h2>
-
-        <div class="menu__container bd-grid">
-            <div class="menu__content">
-                <img src="assets/img/product1.png" alt="" class="menu__img">
-                <h3 class="menu__name">Immunity Booster</h3>
-                <span class="menu__detail">OILY</span>
-                <span class="menu__preci">₹ 522</span>
-                <a class="button menu__button"><i class='bx bx-cart-alt'></i></a>
-
-            </div>
-
-            <div class="menu__content">
-                <img src="assets/img/product2.png" alt="" class="menu__img">
-                <h3 class="menu__name">Hand sanitizer</h3>
-                <span class="menu__detail">Savlon</span>
-                <span class="menu__preci">₹ 129</span>
-                <a class="button menu__button"><i class='bx bx-cart-alt'></i></a>
-            </div>
-
-            <div class="menu__content">
-                <img src="assets/img/product3.png" alt="" class="menu__img">
-                <h3 class="menu__name">Hair Vitamins</h3>
-                <span class="menu__detail">OILY</span>
-                <span class="menu__preci">₹ 559</span>
-                <a class="button menu__button"><i class='bx bx-cart-alt'></i></a>
-            </div>
-            <div class="menu__content">
-                <img src="assets/img/product4.png" alt="" class="menu__img">
-                <h3 class="menu__name">Women's Multi vitamin Tablets</h3>
-                <span class="menu__detail">Himalaya</span>
-                <span class="menu__preci">₹ 199</span>
-                <a class="button menu__button"><i class='bx bx-cart-alt'></i></a>
-            </div>
-            <div class="menu__content">
-                <img src="assets/img/product5.png" alt="" class="menu__img">
-                <h3 class="menu__name">Body Oil</h3>
-                <span class="menu__detail">Ayur Veda</span>
-                <span class="menu__preci">₹ 699</span>
-                <a class="button menu__button"><i class='bx bx-cart-alt'></i></a>
-            </div>
-            <div class="menu__content">
-                <img src="assets/img/product6.png" alt="" class="menu__img">
-                <h3 class="menu__name">Face Serum</h3>
-                <span class="menu__detail">Ayur Veda</span>
-                <span class="menu__preci">₹ 399</span>
-                <a class="button menu__button"><i class='bx bx-cart-alt'></i></a>
-            </div>
-
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
 
 
 
