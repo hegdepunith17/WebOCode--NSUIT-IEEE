@@ -4,8 +4,8 @@ website link : https://med-care-webocode.netlify.app/
 -Team Name - Web Wonders
 
 TEAM MEMBERS :
--Punith Hegde 
--Hasmitha Hegde
+- Punith Hegde 
+- Hasmitha Hegde
 
 
 THEME : HEALTHCARE
@@ -62,6 +62,6 @@ IDE: Microsoft Visual Studio
 
 
 REFERENCES :
--freepik.com 
--previewed.app
--W3schools.com
+- freepik.com 
+- previewed.app
+- W3schools.com
