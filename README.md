@@ -12,7 +12,11 @@ THEME : HEALTHCARE
 
 
 <---------Run on Local Host -------->
+
+
 1)Install Visual Studio
+
+
 2)Open index.html file, right click and run on live server.
 
 
